@@ -81,7 +81,7 @@ function ResumeContent() {
     sessionStorage.setItem('resumeQuestions', JSON.stringify(questions));
     sessionStorage.setItem('resumeText', resumeText);
     
-    router.push(`/interview/resume-${selectedType}`);
+    router.push(`/interview/${selectedType}`);
   };
   
   return (
